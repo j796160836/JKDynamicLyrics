@@ -4,7 +4,6 @@ import android.graphics.Color;
 import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
-import android.text.TextUtils;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -217,10 +216,10 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
 
 
             if (currentLyric != -1 && currentLyric == pos) {
-//                text.setTextColor(Color.RED);
+                text.setTextColor(Color.RED);
                 text.setBackgroundColor(Color.parseColor("#BFFFC6"));
             } else {
-//                text.setTextColor(getResources().getColor(R.color.primary_material_light));
+                text.setTextColor(getResources().getColor(R.color.primary_material_light));
                 text.setBackgroundColor(Color.TRANSPARENT);
             }
 
