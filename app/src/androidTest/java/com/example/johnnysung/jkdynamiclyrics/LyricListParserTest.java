@@ -32,8 +32,8 @@ public class LyricListParserTest extends ApplicationTestCase<Application> {
     }
 
     public void testLoadRawLyrics() {
-        int resId=R.raw.test_lyric;
-        String expected = "Hello";
+        int resId = R.raw.test_lyric;
+        String expected = "[00:02.16] test";
 
         String result = parser.loadRawLyrics(getContext(), resId);
 

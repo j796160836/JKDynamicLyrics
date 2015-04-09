@@ -1,70 +1,37 @@
-[00:02.16]歌曲:說愛你(國)
-[00:06.16]演唱:蔡依林
-[00:20.89]我的世界
-[00:22.00]變得奇妙更難以言喻
-[00:25.82]還以為
-[00:27.00]是從天而降的夢境
-[00:30.27]直到確定
-[00:31.73]手的溫度來自你心裡
-[00:35.12]這一刻
-[00:36.07]我終於勇敢說愛你
-[00:40.00]一開始　我只顧著看你
-[00:42.27]裝做不經意　心卻飄過去
-[00:44.50]還竊喜
-[00:46.30]你沒發現我
-[00:47.61]躲在角落
-[00:49.12]忙著快樂
-[00:50.14]忙著感動　從彼此陌生到熟
-[00:52.00]會是我們從沒想過
-[00:54.53]真愛　到現在
-[00:57.02]不敢期待
-[00:59.80]要證明自己
-[01:01.00]曾被你想起　Really？
-[01:04.00]我胡思亂想
-[01:06.00]就從今天起　I wish
-[01:09.22]像一個陷阱
-[01:10.86]卻從未猶豫　相信
-[01:13.87]你真的願意
-[01:15.49]就請給我驚喜
-[01:17.38]☆關於愛情
-[01:18.97]過去沒有異想的結局
-[01:22.20]那天起
-[01:23.74]卻顛覆了自己邏輯
-[01:26.75]我的懷疑
-[01:28.24]所有答案因你而明白
-[01:31.66]轉啊轉
-[01:33.18]就真的遇見　Mr.right
-[01:55.43]一開始　我只顧著看你
-[01:57.31]裝做不經意　心卻飄過去
-[01:59.70]還竊喜
-[02:00.57]你沒發現我
-[02:02.89]躲在角落
-[02:04.59]忙著快樂
-[02:05.55]忙著感動　從彼此陌生到熟　會是我們從沒想過
-[02:09.97]真愛到現在
-[02:12.26]不敢期待
-[02:15.05]
-[02:15.30]要證明自己
-[02:16.92]曾被你想起 Really？
-[02:19.69]我胡思亂想
-[02:21.32]就從今天起 I wish
-[02:24.20]像一個陷阱
-[02:26.03]卻從未猶豫　相信
-[02:29.02]你真的願意
-[02:30.88]就請給我驚喜
-[02:32.66]關於愛情
-[02:34.14]過去沒有異想的結局
-[02:37.46]那天起
-[02:39.10]卻顛覆了自己邏輯
-[02:41.90]我的懷疑
-[02:43.51]所有答案因你而明白
-[02:46.94]轉啊轉
-[02:48.50]就真的遇見　Mr.right
-[02:51.35]我的世界
-[02:52.92]變得奇妙更難以言喻
-[02:56.24]還以為
-[02:57.77]是從天而降的夢境
-[03:00.69]直到確定
-[03:02.38]手的溫度來自你心裡
-[03:05.81]這一刻
-[03:07.45]也終於勇敢說愛你
+[00:00.00] Not Your Kind Of People
+[00:23.89] We are not your kind of people.
+[00:27.95] You seem kind of phoney.
+[00:33.80] Everything's a lie.
+[00:39.87] We are not your kind of people.
+[00:43.76] Something in your makeup.
+[00:49.76] Don't see eye to eye.
+[00:55.65] We are not your kind of people.
+[00:59.62] Don't want to be like you.
+[01:05.54] Ever in our lives.
+[01:11.15] We are not your kind of people.
+[01:15.30] We fight when you start talking.
+[01:21.25] There's nothing but white noise	
+[01:29.50] Ahhh.... Ahhh.... Ahhh.... Ahhh....
+[02:24.20] Running around trying to fit in,
+[02:27.10] Wanting to be loved.
+[02:30.96] It doesn't take much.
+[02:34.85] For someone to shut you down.
+[02:39.25] When you build a shell,
+[02:41.09] Build an army in your mind.
+[02:43.56] You can't sit still.
+[02:45.38] And you don't like hanging round the crowd.
+[02:50.31] They don't understand
+[02:56.50] You dropped by as I was sleeping.
+[03:03.56] You came to see the whole commotion.
+[03:11.34] And when I woke I started laughing.
+[03:18.48] The jokes on me for not believing.
+[03:26.11] We are not your kind of people.
+[03:35.77] Speak a different language.
+[03:41.67] We see through your lies.
+[03:47.42] We are not your kind of people.
+[03:51.37] Won't be cast as demons,
+[03:57.42] Creatures you despise.
+[04:03.92] We are extraordinary people.
+[04:11.72] We are extraordinary people.
+[04:19.46] We are extraordinary people.
+[04:28.46] We are extraordinary people.

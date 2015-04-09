@@ -76,4 +76,8 @@ public class LyricListParser {
         }
         return null;
     }
+
+    public ArrayList<Lyric> getLyrics() {
+        return lyrics;
+    }
 }

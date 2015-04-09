@@ -22,6 +22,10 @@ public class Lyric {
         return time;
     }
 
+    public long getMilliseconds() {
+        return time.getTime() - 18000000;
+    }
+
     public void setTime(Date time) {
         this.time = time;
     }
