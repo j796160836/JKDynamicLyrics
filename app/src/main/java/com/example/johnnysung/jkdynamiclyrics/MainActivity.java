@@ -113,8 +113,12 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
 //            current_pos_tv.setText(String.valueOf((float) mediaPosition / 1000));
             total_tv.setText(String.valueOf((float) mediaDuration / 1000));
 
-            currentLyric = findCurrentLyric();
-            mAdapter.notifyDataSetChanged();
+            int index = findCurrentLyric();
+            if (index != currentLyric) {
+                currentLyric = index;
+                mAdapter.notifyDataSetChanged();
+                lyrics_lv.smoothScrollToPosition(currentLyric);
+            }
         }
     }
 
