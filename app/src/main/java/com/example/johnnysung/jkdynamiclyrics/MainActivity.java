@@ -8,6 +8,7 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.BaseAdapter;
 import android.widget.Button;
 import android.widget.ListView;
@@ -24,7 +25,7 @@ import butterknife.ButterKnife;
 import butterknife.InjectView;
 
 
-public class MainActivity extends ActionBarActivity implements View.OnClickListener {
+public class MainActivity extends ActionBarActivity implements View.OnClickListener, AdapterView.OnItemClickListener {
 
     @InjectView(R.id.lyrics_lv)
     ListView lyrics_lv;
@@ -49,7 +50,7 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
     private ScheduledExecutorService myScheduledExecutorService;
 
     private int mediaDuration;
-    private int mediaPosition;
+    private int mediaPosition = 0;
     private SimpleDateFormat sb;
 
     @Override
@@ -69,6 +70,7 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
 
         mAdapter = new LyricsAdapter();
         lyrics_lv.setAdapter(mAdapter);
+        lyrics_lv.setOnItemClickListener(this);
 
         sb = new SimpleDateFormat("mm:ss.SS");
         initPlayer();
@@ -87,7 +89,7 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
         super.onResume();
 
         if (!mediaPlayer.isPlaying()) {
-            mediaPlayer.seekTo(0);
+            mediaPlayer.seekTo(mediaPosition);
         }
     }
 
@@ -151,7 +153,8 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
             = new MediaPlayer.OnErrorListener() {
         @Override
         public boolean onError(MediaPlayer mp, int what, int extra) {
-            return false;
+            mediaPlayer.stop();
+            return true;
         }
     };
 
@@ -188,6 +191,18 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
                 String timecode = sb.format(new Date(mediaPosition));
                 Log.v("Timecode", timecode);
             }
+        }
+    }
+
+    @Override
+    public void onItemClick(AdapterView<?> adapterView, View view, int pos, long l) {
+        if (mediaPlayer.isPlaying()) {
+            int seekToMilliseconds = 0;
+            if (pos > 0) {
+                Lyric data = (Lyric) mAdapter.getItem(pos - 1);
+                seekToMilliseconds = (int) data.getMilliseconds();
+            }
+            mediaPlayer.seekTo(seekToMilliseconds);
         }
     }
 
