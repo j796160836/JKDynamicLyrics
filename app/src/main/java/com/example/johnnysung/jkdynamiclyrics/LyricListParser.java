@@ -11,6 +11,7 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
+import java.util.TimeZone;
 
 /**
  * Created by johnnysung on 2015/04/08.
@@ -66,6 +67,7 @@ public class LyricListParser {
         Date date = null;
         if (start != -1 && end != -1) {
             SimpleDateFormat sb = new SimpleDateFormat("mm:ss.SS");
+            sb.setTimeZone(TimeZone.getTimeZone("GMT"));
             try {
                 date = sb.parse(str.substring(start + 1, end));
             } catch (ParseException e) {
